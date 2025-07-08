@@ -64,7 +64,7 @@ resource "aws_iam_role_policy_attachment" "example" {
 
 # - S3 Bucket -
 resource "aws_s3_bucket" "example" {
-  bucket_prefix = "example-prod-resource"
+  bucket_prefix = "example-prod-workload-tf-state-p4id"
   force_destroy = true
 
   # - Challenge: resolve Checkov issues -
